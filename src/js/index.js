@@ -3,15 +3,23 @@ const projetosInativo = document.querySelectorAll('.projeto:not(.ativo)');
 
 botaoMostrarProjetos.addEventListener('click', () => {
     mostrarMaisProjetos();
-    esconderBotao();
+    alternarTextoBotao();
 });
-
-function esconderBotao() {
-    botaoMostrarProjetos.classList.add("remover");
-}
 
 function mostrarMaisProjetos() {
     projetosInativo.forEach(projetosInativo => {
-        projetosInativo.classList.add('ativo');
+        if(!(projetosInativo.classList.contains('ativo'))) {
+            projetosInativo.classList.add('ativo');
+        } else {
+            projetosInativo.classList.remove('ativo');
+        }
     });
+}
+
+function alternarTextoBotao() {
+    if (botaoMostrarProjetos.innerText === 'Mostrar mais') {
+        botaoMostrarProjetos.innerText = 'Mostrar menos';
+    } else {
+        botaoMostrarProjetos.innerText = 'Mostrar mais';
+    }
 }
