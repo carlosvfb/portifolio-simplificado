@@ -20,6 +20,16 @@
     }
 }
 
+@media (width <= 450px) {
+    .cabecalho .logo-img {
+        display: none;
+    }
+
+    .cabecalho .logo {
+        display: block;
+    }
+}
+
 @media (width <= 425px) {
     .home .informacoes h1 {
         font-size: 30px;

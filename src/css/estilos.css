@@ -18,7 +18,7 @@ body {
     padding: 30px 15px;
 }
 
-.cabecalho .logo {
+.cabecalho .logo-img {
     background-image: url(../images/logo.png);
     background-position: center;
     background-size: 180px;
@@ -30,7 +30,19 @@ body {
     transition: 0.2s;
 }
 
-.cabecalho a:hover .logo {
+.cabecalho .logo {
+    color: #00E8F8;
+    width: 67px;
+    height: 67px;
+    border: 2px solid #00E8F8;
+    padding-top: 6px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: underline;
+    display: none;
+}
+
+.cabecalho a:hover .logo-img {
     background-color: #1F252E;
     border: 2px solid #00E8F8;
     box-shadow: 0 0 30px #00E8F8;
@@ -94,7 +106,8 @@ body {
     transition: 0.3s;
 }
 
-.home .redes-sociais a i:hover {
+.home .redes-sociais a i:hover,
+.cabecalho a:hover .logo {
     color: #1F252E;
     background-color: #00E8F8;
     box-shadow: 0 0 20px #00E8F8;
