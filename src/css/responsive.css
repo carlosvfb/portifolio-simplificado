@@ -21,7 +21,7 @@
 }
 
 @media (width <= 450px) {
-    .cabecalho .logo-img {
+    .cabecalho .logo-desktop {
         display: none;
     }
 

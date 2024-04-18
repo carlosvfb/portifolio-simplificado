@@ -1,6 +1,7 @@
 html {
     color: #fff;
     scroll-behavior: smooth;
+    cursor: url('../images/cur116.cur'), progress;
 }
 
 body {
@@ -61,6 +62,7 @@ body {
     background-color: #00E8F8;
     border: 2px solid #00E8F8;
     box-shadow: 0 0 30px #00E8F8;
+    cursor: url('../images/cur117.cur'), progress;
 }
 
 .cabecalho .menu li a {
@@ -73,6 +75,7 @@ body {
     background-color: #00E8F8;
     color: #1F252E;
     border-radius: 50px;
+    cursor: url('../images/cur117.cur'), progress;
 }
 
 .home {
@@ -127,6 +130,7 @@ body {
     background-color: #00E8F8;
     box-shadow: 0 0 20px #00E8F8;
     transition: all .3s ease-in-out;
+    cursor: url('../images/cur117.cur'), progress;
 }
 
 .home .container-foto .foto {
@@ -204,6 +208,7 @@ body {
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
     opacity: 0.7;
     background-color: #000;
+    cursor: url('../images/cur117.cur'), progress;
 }
 
 .projetos .btn-mostrar-projetos {
@@ -227,6 +232,7 @@ body {
     background-color: #00E8F8;
     box-shadow: 0 0 20px #00E8F8;
     transition: 0.3s;
+    cursor: url('../images/cur117.cur'), progress;
 }
 
 .projetos .btn-mostrar-projetos.remover {
